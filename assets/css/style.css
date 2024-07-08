@@ -114,7 +114,7 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 60px;
+  max-height: 80px;
 }
 
 @media (max-width: 768px) {
@@ -735,15 +735,15 @@ section {
   padding: 12px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 10px;
+  margin: 10px;  
   color: #F6F6F6;
-  background: #14264f;
+  background: #008A97;
 }
 
 .about .about-btn:hover {
-  border: 1px solid #14264f;
+  border: 1px solid #6CB4AF;
   background: #F6F6F6;
-  color: #14264f;
+  color: #6CB4AF;
 }
 
 /*--------------------------------------------------------------
@@ -754,7 +754,7 @@ section {
   position: relative;
   overflow: hidden;
   background: #fff;
-  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  box-shadow: 0 0 29px 0 #EFD500;
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
@@ -847,17 +847,17 @@ section {
   transition: 0.5s;
   margin: 10px;
   color: #F6F6F6;
-  background: #14264f;
+  background: #008A97;
 }
 
 .services .about-btn:hover {
-  border: 1px solid #14264f;
+  border: 1px solid #6CB4AF;
   background: #F6F6F6;
-  color: #14264f;
+  color: #6CB4AF;
 }
 
 .services .flip-container {
-  border: 1px solid #14264f;
+  border: 1px solid #008A97;
   box-shadow: 11px 5px 25px 0px rgba(0, 0, 0, 0.75);
   position: relative;
   overflow: hidden;
@@ -870,7 +870,7 @@ section {
 .services .flip-container::before {
   content: "";
   position: absolute;
-  background: #14264F;
+  background: #008A97;
   right: -60px;
   bottom: -40px;
   width: 100px;
@@ -926,7 +926,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .container {
-  border: 1px solid #14264f;
+  border: 1px solid #008A97;
   padding: 12px 12px 12px 12px;
   box-shadow: 0px 15px 58px 0px rgba(0, 0, 0, 0.75);
   border-radius: 20px;
@@ -938,7 +938,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  background: #14264f;
+  background: #008A97;
   color: #fff;
   float: left;
   width: 44px;
@@ -980,7 +980,7 @@ section {
 }
 
 .contact button {
-  background: #14264f;
+  background: #008A97;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1067,7 +1067,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #14151c;
+  background: #6CB4AF;
   color: #fff;
   font-size: 14px;
   text-align: center;
