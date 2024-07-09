@@ -162,7 +162,7 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
   border-radius: 50px;
-  font-family: mont;
+  font-family: work;
 }
 
 .navbar a i,
@@ -863,8 +863,8 @@ section {
   box-shadow: 11px 5px 25px 0px rgba(0, 0, 0, 0.75);
   position: relative;
   overflow: hidden;
-  width: 360px;
-  height: 270px;
+  width: 260px;
+  height: 370px;
   background: #fff;
   border-radius: 13px;
 }
@@ -901,7 +901,7 @@ section {
 }
 
 .services .flipper .front img {
-  margin: 8px auto 8px auto;
+  margin: 60px auto 10px auto;
   width: 130px;
   height: 130px;
   transition: all 0.3s ease-in-out;
