@@ -755,7 +755,6 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   padding: 30px;
-  position: relative;
   overflow: hidden;
   background: #fff;
   box-shadow: 0 0 29px 0 #EFD500;
@@ -766,7 +765,6 @@ section {
 
 .services .icon-box::before {
   content: "";
-  position: absolute;
   background: #aff4e9;
   right: -60px;
   top: -40px;
@@ -888,7 +886,7 @@ section {
   font-size: 40px;
   position: absolute;
   color: #f6f6f6;
-  right: -62px;
+  right: -35px;
   bottom: -58px;
   width: 100px;
   height: 100px;
