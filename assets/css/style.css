@@ -941,20 +941,12 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #B3DACC;
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
   transition: 0.3s;
-  transform: skew(0deg, -13deg);
-}
-
-.lema .icon-box .icon i {
-  color: #151515;
-  font-size: 28px;
-  transition: ease-in-out 0.3s;
 }
 
 .lema .icon-box h4 {
@@ -966,6 +958,7 @@ section {
 .lema .icon-box h4 a {
   color: #151515;
   transition: ease-in-out 0.3s;
+  font-family: mont;
 }
 
 .lema .icon-box h4 a:hover {
