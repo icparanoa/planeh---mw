@@ -2,8 +2,13 @@
 # General
 --------------------------------------------------------------*/
 @font-face {
-  font-family: Waffle;
-  src: url(../fonts/waffle.otf)
+  font-family: work;
+  src: url(../fonts/work.ttf)
+}
+
+@font-face {
+  font-family: mont;
+  src: url(../fonts/mont.otf)
 }
 
 body {
@@ -108,7 +113,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(42, 44, 57, 0.9);
+  background: #B3DACC;
 }
 
 #header .logo img {
@@ -152,12 +157,12 @@ h6 {
   justify-content: space-between;
   padding: 5px 15px 7px 15px;
   margin-left: 5px;
-  font-size: 14px;
-  color: #a58f8f;
+  font-size: 16px;
+  color: #575756;
   white-space: nowrap;
   transition: 0.3s;
   border-radius: 50px;
-  font-family: Waffle;
+  font-family: mont;
 }
 
 .navbar a i,
@@ -172,13 +177,13 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #f6f6f6;
-  background: #063e89;
+  background: #008A97;
 }
 
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: 5px;
+  right: 1px;
   top: calc(100% + 30px);
   margin: 5px 0 0 0;
   padding: 10px 0;
@@ -354,7 +359,6 @@ h6 {
 #hero {
   max-width: 100%;
   height: 100vh;
-  background: url("../img/banner.png") top center no-repeat;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -497,7 +501,7 @@ h6 {
 .info-box .content h3 {
   font-weight: 400;
   font-size: 36px;
-  font-family: Waffle;
+  font-family: work;
 }
 
 .info-box .content h4 {
@@ -637,7 +641,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   color: #231F20;
-  font-family: Waffle;
+  font-family: work;
   padding-bottom: 20px;
 }
 
@@ -922,9 +926,76 @@ section {
   transform: rotateY(180deg);
 }
 
+
+/*--------------------------------------------------------------
+# lema
+--------------------------------------------------------------*/
+.lema .icon-box {
+  text-align: center;
+  border: 1px solid #ebebeb;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.lema .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: #B3DACC;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  transform: skew(0deg, -13deg);
+}
+
+.lema .icon-box .icon i {
+  color: #151515;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+}
+
+.lema .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.lema .icon-box h4 a {
+  color: #151515;
+  transition: ease-in-out 0.3s;
+}
+
+.lema .icon-box h4 a:hover {
+  color: #ffc451;
+}
+
+.lema .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.lema .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact {
+  padding: 80px 0;
+  background: url("../img/fundo.png") fixed no-repeat center;
+  background-position: center;
+  background-size: cover;
+}
+
 .contact .container {
   border: 1px solid #008A97;
   padding: 12px 12px 12px 12px;
@@ -937,6 +1008,7 @@ section {
 }
 
 .contact .info i {
+  border: 2px solid #E3EAB1;
   font-size: 20px;
   background: #008A97;
   color: #fff;
@@ -968,6 +1040,18 @@ section {
 
 .contact .info a {
   color: #000;
+}
+
+.contact iframe {
+  border: 2px solid #E3EAB1;
+}
+
+.contact input {
+  border: 2px solid #E3EAB1;
+}
+
+.contact textarea {
+  border: 2px solid #E3EAB1;
 }
 
 .contact .info a:hover {
