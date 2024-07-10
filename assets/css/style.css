@@ -519,6 +519,7 @@ h6 {
   box-shadow: 11px 5px 25px 0px rgba(0, 0, 0, 0.75);
   border-radius: 15px;
   background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 
 .info-box .accordion-list {
