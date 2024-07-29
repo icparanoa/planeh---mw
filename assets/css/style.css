@@ -532,13 +532,13 @@ h6 {
 }
 
 .info-box .accordion-list li+li {
-  margin-top: 15px;
+  margin-top: -10px;
 }
 
 .info-box .accordion-list li {
   padding: 20px;
   background: #f2f5f4;
-  border-radius: 5px;
+  border-radius: 25px;
 }
 
 .info-box .accordion-list a {
