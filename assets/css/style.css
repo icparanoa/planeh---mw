@@ -429,9 +429,22 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    margin-top: 80px;
     width: 100%;
+    height: 50vh;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+  }
+
+  #hero .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
     height: 23vh;
+    padding-top: 60px;
   }
 }
 
@@ -740,7 +753,7 @@ section {
   padding: 12px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 10px;  
+  margin: 10px;
   color: #F6F6F6;
   background: #008A97;
 }
