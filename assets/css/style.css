@@ -372,13 +372,11 @@ h6 {
   text-align: center;
   position: relative;
   height: 70vh;
-  padding-top: 60px;
 }
 
-#hero h2 {
-  color: #fff;
-  margin-bottom: 30px;
-  font-size: 48px;
+#hero h4 {
+  color: #000000;
+  font-size: 50px;
   font-weight: 700;
 }
 
@@ -768,7 +766,6 @@ section {
 # Our Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  padding: 30px;
   overflow: hidden;
   background: #fff;
   box-shadow: 0 0 29px 0 #EFD500;
@@ -780,7 +777,6 @@ section {
 .services .icon-box::before {
   content: "";
   background: #aff4e9;
-  right: -60px;
   top: -40px;
   width: 100px;
   height: 100px;
